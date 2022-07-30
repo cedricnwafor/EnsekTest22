@@ -1,0 +1,87 @@
+Feature: Find out more
+         In order to navigate to Ensek website on Microsoft Edge browser
+		 As a user
+		 I want the ability to click the 'Find out more' tab
+		 And navigate to the Ensek webpage
+		 
+Scenario: Click 'Find out more' tab
+          Given that I navigate to the given URL link (https://ensekautomationcandidatetest.azurewebsites.net/)
+		  When I click on the 'Find out more' tab
+		  Then the Ensek website is opened
+		  
+Feature: Buy Energy
+         In order to buy different types of energy on Microsoft Edge browser
+		 As a customer
+		 I want the ability to click the 'Buy Energy' tab
+		 And navigate to the Buy Energy webpage
+		 
+Scenario: Click 'Buy Energy' tab
+          Given that I navigate to the given URL link (https://ensekautomationcandidatetest.azurewebsites.net/)
+		  When I click on the 'Buy Energy' tab
+		  Then the Buy Energy webpage is opened
+		  
+Feature: Buy Energy
+         In order to buy different types of energy 
+		 As a customer
+		 I want the ability to click the 'Buy Energy' tab
+		 And navigate to the Buy Energy webpage on Microsoft Edge browser
+		 
+Scenario: Click 'Sell Energy' tab
+          Given that I navigate to the given URL link (https://ensekautomationcandidatetest.azurewebsites.net/)
+		  When I click on the 'Buy Energy' tab
+		  Then the Buy Energy webpage is opened
+
+Feature: About us
+         In order to Learn a little more about Ensek
+		 As a customer
+		 I want the ability to click the 'About us' tab
+		 And navigate to the About ENSEK Energy Corp.. webpage on Microsoft Edge browser
+		 
+Scenario: Click 'About us' tab
+          Given that I navigate to the given URL link (https://ensekautomationcandidatetest.azurewebsites.net/)
+		  When I click on the 'About us' tab
+		  Then the About us webpage is opened
+		  
+Feature: About
+         In order to Learn a little more about Ensek
+		 As a user
+		 I want the ability to click the 'About' tab
+		 And navigate to the About ENSEK Energy Corp.. webpage on Microsoft Edge browser
+		 
+Scenario: Click 'About' tab
+          Given that I navigate to the given URL link (https://ensekautomationcandidatetest.azurewebsites.net/)
+		  When I click on the 'About' tab
+		  Then the About webpage is opened
+		  
+Feature: Contact
+         In order to get Ensek's contact details
+		 As a user
+		 I want the ability to click the 'Contact' tab
+		 And navigate to Ensek's contact details webpage on Microsoft Edge browser
+		 
+Scenario: Click 'Contact' tab
+          Given that I navigate to the given URL link (https://ensekautomationcandidatetest.azurewebsites.net/)
+		  When I click on the 'Contact' tab
+		  Then the Contact details webpage is opened
+		  
+Feature: Register
+         In order to Register and create a new account
+		 As a user
+		 I want the ability to click the 'Register' tab
+		 And navigate to Ensek's Register webpage on Microsoft Edge browser
+		 
+Scenario: Click 'Register' tab
+          Given that I navigate to the given URL link (https://ensekautomationcandidatetest.azurewebsites.net/)
+		  When I click on the 'Register' tab
+		  Then the Registration page is opened
+
+Feature: Log in
+         In order to Log in with a local account
+		 As a user
+		 I want the ability to click the 'Log in' tab
+		 And navigate to the Log in page on Microsoft Edge browser
+		 
+Scenario: Click 'Log in' tab
+          Given that I navigate to the given URL link (https://ensekautomationcandidatetest.azurewebsites.net/)
+		  When I click on the 'Log in' tab
+		  Then the Log in page is opened
